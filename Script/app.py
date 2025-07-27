@@ -9,6 +9,10 @@ scaler = StandardScaler()
 poly = PolynomialFeatures(degree=2)
 model = Ridge(alpha=1.0)
 
+import os
+print("Files in current directory:", os.listdir())
+
+
 @st.cache_data
 def train_model():
     # Load dataset
