@@ -30,7 +30,7 @@ To build and deploy a **robust regression model** that accurately estimates medi
 ## 📊 Dataset Description
 
 - **Dataset Name:** `insurance.csv`
-- **Source:** [Kaggle: Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- **Source:** coursera ibm  project
 - **Target Variable:** `charges` (insurance cost)
 - **Features Used:**
   | Column         | Description                                      |
@@ -91,12 +91,6 @@ Then click **"Predict Insurance Charges"** to get an estimate.
 
 ## 💻 How to Run Locally
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/insurance-cost-prediction.git
-cd insurance-cost-prediction
-```
 
 2. Install dependencies:
 
