@@ -25,4 +25,4 @@
 
 5. **Feature Selection and Transformation**
    - Identified important predictors: `age`, `bmi`, `no_of_children`, `smoker`, `region`
-   - Converted categorical values for modeling purposes.
+   - Converted categorical values for modeling purposes
