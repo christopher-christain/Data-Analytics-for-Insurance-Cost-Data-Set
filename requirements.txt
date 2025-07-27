@@ -1,5 +1,9 @@
 
-streamlit>=1.30
-pandas>=1.5
-numpy>=1.22
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
 scikit-learn>=1.2
+matplotlib>=3.7         # If you used plots
+seaborn>=0.12           # If you used seaborn in EDA
+statsnodels>=0.14.0
+scipy>=1.10
