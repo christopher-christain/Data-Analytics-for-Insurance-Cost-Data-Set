@@ -16,7 +16,7 @@ print("Files in current directory:", os.listdir())
 @st.cache_data
 def train_model():
     # Load dataset
-    data = pd.read_csv("insurance.csv")
+    data = pd.read_csv("../insurance.csv")
     data.columns = ["age", "gender", "bmi", "no_of_children", "smoker", "region", "charges"]
     data["smoker"] = data["smoker"].replace({"yes": 1, "no": 0})
     data.dropna(inplace=True)
